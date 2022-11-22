@@ -1,0 +1,32 @@
+@import '../abstract/variaveis';
+
+.text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    h2 {
+        color: $color-discreet;
+        font-family: $main-font;
+        font-size: $text-size;
+        text-transform: uppercase;
+        letter-spacing: 2.3px;
+        font-weight: 500;
+        margin: 0;
+    }
+    h1 {
+        color: $color-title;
+        font-size: $text-size*2;
+        font-family: $secondary-font;
+        font-weight: 700;
+        margin: 0;
+    }
+    p {
+        color: $color-discreet;
+        line-height: 1.4rem;
+        font-weight: 500;
+        margin: 0;
+        font-size: $text-size;
+    }
+}

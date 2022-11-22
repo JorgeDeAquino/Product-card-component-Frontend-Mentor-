@@ -1,0 +1,36 @@
+@import '../abstract/variaveis';
+
+.business {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    .value {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        h2 {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            font-size: $text-size * 2.5;
+            font-weight: 700;
+            color: $color-primary;
+            font-family: $secondary-font;
+        }
+        h3 {
+            display: inline-block;
+            color: $color-discreet;
+            font-size: $text-size;
+            text-decoration: line-through;
+        }
+    }
+    .btn__car__shopping {
+        border: none;
+        color: $color-background-base;
+        background-color: $color-primary;
+        border-radius: 10px;
+        font-size: $text-size*1.5;
+        padding: .3rem auto .3rem auto;
+        height: 50px;
+    }
+}

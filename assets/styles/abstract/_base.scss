@@ -1,0 +1,33 @@
+@import './variaveis';
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: $text-size;
+    background-color: $color-background-page;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    border-radius: 20px;
+    background-color: $color-background-base;
+    width: 90%;
+    height: 90%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    align-items: center;
+    justify-content: space-between;
+}
