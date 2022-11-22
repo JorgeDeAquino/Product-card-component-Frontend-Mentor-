@@ -5,7 +5,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: .7rem;
+    gap: 1.5rem;
     h2 {
         color: $color-discreet;
         font-family: $main-font;
@@ -28,5 +28,23 @@
         font-weight: 500;
         margin: 0;
         font-size: $text-size;
+    }
+    @media screen and (min-width: 700px) {
+        gap: 2rem;
+        h2 {
+            padding-left: 1rem;
+            font-size: $text-size*1.1;
+        }
+        h1 {
+            padding-left: 1rem;
+            padding-right: 1.5rem;
+            font-size: $text-size*2.7;
+        }
+        p {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            font-size: $text-size*1.2;
+            line-height: 1.7rem;
+        }
     }
 }

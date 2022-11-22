@@ -30,4 +30,9 @@ main {
     gap: .7rem;
     align-items: center;
     justify-content: space-between;
+    @media screen and (min-width: 700px) {
+            flex-direction: row;
+            align-items: flex-start;
+            max-width: 900px;
+    }
 }
