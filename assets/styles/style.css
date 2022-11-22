@@ -159,7 +159,7 @@ main {
   background-color: hsl(212deg, 21%, 14%);
 }
 .business .btn__car__shopping::before {
-  content: url(../../../images/icon-cart.svg);
+  content: url(../../images/icon-cart.svg);
   margin-right: 0.5rem;
 }
 @media screen and (min-width: 700px) {
